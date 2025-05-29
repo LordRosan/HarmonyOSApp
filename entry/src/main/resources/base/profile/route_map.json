@@ -1,0 +1,54 @@
+{
+  "routerMap": [
+    {
+      "name": "DeviceQuery",
+      "pageSourceFile": "src/main/ets/pages/1-1.DeviceQuery.ets",
+      "buildFunction": "DeviceQueryBuilder"
+    },
+    {
+      "name": "DeviceNumberQuery",
+      "pageSourceFile": "src/main/ets/pages/1-1-1.DeviceNumberQuery.ets",
+      "buildFunction": "DeviceNumberQueryBuilder"
+    },
+    {
+      "name": "QRCodeQuery",
+      "pageSourceFile": "src/main/ets/pages/1-1-2.QRCodeQuery.ets",
+      "buildFunction": "QRCodeQueryBuilder"
+    },
+    {
+      "name": "DeviceDetail",
+      "pageSourceFile": "src/main/ets/pages/1-1-x-1.DeviceDetail.ets",
+      "buildFunction": "DeviceDetailBuilder"
+    },
+    {
+      "name": "ReportSubmission",
+      "pageSourceFile": "src/main/ets/pages/1-2.ReportSubmission.ets",
+      "buildFunction": "ReportSubmissionBuilder"
+    },
+    {
+      "name": "FailureReport",
+      "pageSourceFile": "src/main/ets/pages/1-2-1.FailureReport.ets",
+      "buildFunction": "FailureReportBuilder"
+    },
+    {
+      "name": "RepairReport",
+      "pageSourceFile": "src/main/ets/pages/1-2-2.RepairReport.ets",
+      "buildFunction": "RepairReportBuilder"
+    },
+    {
+      "name": "AddDevice",
+      "pageSourceFile": "src/main/ets/pages/1-3.AddDevice.ets",
+      "buildFunction": "AddDeviceBuilder"
+    },
+    {
+      "name": "DeleteDevice",
+      "pageSourceFile": "src/main/ets/pages/1-4.DeleteDevice.ets",
+      "buildFunction": "DeleteDeviceBuilder"
+    },
+    {
+      "name": "About",
+      "pageSourceFile": "src/main/ets/pages/1-5.About.ets",
+      "buildFunction": "AboutBuilder"
+    }
+  ]
+}
