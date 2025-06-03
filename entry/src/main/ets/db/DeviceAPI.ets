@@ -12,8 +12,7 @@ import {
   RepairType,
   SelfCheckRecord,
   SelfCheckRecordInput,
-  SelfCheckRecordIndices,
-  DeviceType
+  SelfCheckRecordIndices
 } from './Device'
 import { relationalStore } from '@kit.ArkData'
 import promptAction from '@ohos.promptAction'

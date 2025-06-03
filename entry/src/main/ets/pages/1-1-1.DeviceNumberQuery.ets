@@ -9,7 +9,7 @@ export function DeviceNumberQueryBuilder() {
 
 @Component
 struct DeviceNumberQuery {
-  //
+
   @State pathStack: NavPathStack = new NavPathStack()
   @State deviceNumber: string = ''
 
