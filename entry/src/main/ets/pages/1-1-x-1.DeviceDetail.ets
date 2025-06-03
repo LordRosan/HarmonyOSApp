@@ -233,6 +233,7 @@ struct DeviceDetail {
                 `设备状态：${this.device.status}`
               ]
             }).width('90%')
+              .height('20%')
 
             if (this.device.failureRecords?.length > 0) {
               DeviceInfoCard({
@@ -241,6 +242,7 @@ struct DeviceDetail {
                   return `编号：${record.number}\n日期：${record.date}\n故障信息：${record.description}\n紧急程度：${record.emergency}\n操作员：${record.operator}\n`
                 })
               }).width('90%')
+                .height('20%')
             }
 
             if (this.device.repairRecords?.length > 0) {
@@ -250,6 +252,7 @@ struct DeviceDetail {
                   return `编号：${record.number}\n日期：${record.date}\n维修类型：${record.type}\n维修信息：${record.description}\n操作人：${record.operator}\n`
                 })
               }).width('90%')
+                .height('20%')
             }
 
             if (this.device.selfCheckRecords?.length > 0) {
@@ -259,6 +262,7 @@ struct DeviceDetail {
                   return `编号：${record.number}\n日期：${record.date}\n通过与否：${record.passed}\n`
                 })
               }).width('90%')
+                .height('20%')
             }
           }
         } else {
